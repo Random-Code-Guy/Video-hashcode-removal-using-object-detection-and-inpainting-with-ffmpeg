@@ -1,4 +1,4 @@
-# object detection inpainting with ffmpeg for hashcode removal
+# ffmpeg for hashcode removal ## THE CODE IN THIS REPO ARE STARTING IDEAS AND ARE NOT FINAL CODE SOLUTIONS
 
 The script is designed to remove a randomly generated watermark that moves around the screen from a video. The approach used in the script is to apply object detection to track the position of the watermark in each frame, and then apply image inpainting to remove the watermark from the frame.
 
