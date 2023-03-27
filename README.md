@@ -1,5 +1,5 @@
-# ffmpeg for hashcode removal
-# The code in this repo is not final and is an idea draft only it may need small or major edits to work in production the code is provided as is
+# Hashcode Removal using ffmpeg, object detection and inpainting.
+# The code in this repo is not final and is an idea draft only it may need small or major edits to work in production the code is provided as is.
 
 The script is designed to remove a randomly generated watermark that moves around the screen from a video. The approach used in the script is to apply object detection to track the position of the watermark in each frame, and then apply image inpainting to remove the watermark from the frame.
 
